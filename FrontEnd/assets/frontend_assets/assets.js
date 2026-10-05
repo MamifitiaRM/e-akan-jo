@@ -1,0 +1,25 @@
+import hero_img from "./hero_img.png";
+import cart_icon from "./cart_icon.png";
+import exchange_icon from "./exchange_icon.png";
+import profile_icon from "./profile_icon.png";
+import quality_icon from "./quality_icon.png";
+import search_icon from "./search_icon.png";
+import support_img from "./support_img.png";
+import about_img from "./about_img.png";
+import contact_img from "./contact_img.png";
+import stripe_logo from "./stripe_logo.png";
+import cross_icon from "./cross_icon.png";
+
+export const assets = {
+  hero_img,
+  cart_icon,
+  exchange_icon,
+  profile_icon,
+  quality_icon,
+  search_icon,
+  support_img,
+  about_img,
+  contact_img,
+  stripe_logo,
+  cross_icon,
+};

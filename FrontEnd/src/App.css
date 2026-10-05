@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+.title {
+  font-family: "Lucida Handwriting";
+}
+h4 {
+  font-family: Cambria, serif;
+}
+
+@theme {
+  --color-bgColor: #f2f2f2;
+  --color-primaryText: #2e2e2e;
+  --color-secondText: #595959;
+  --color-borderColor: #595959;
+}
+
+@layer base {
+  h1 {
+    @apply text-primaryText lg:text-5xl md:text-4xl font-light text-3xl;
+  }
+  h2 {
+    @apply text-primaryText uppercase md:text-2xl font-semibold text-2xl;
+  }
+  h3 {
+    @apply text-primaryText uppercase md:text-[20px] font-semibold text-[16px];
+  }
+  h4 {
+    @apply text-black text-2xl font-bold;
+  }
+  p {
+    @apply text-primaryText;
+  }
+  hr {
+    @apply text-gray-400;
+  }
+  input {
+    @apply border-2 border-gray-300;
+  }
+}
+
+@layer components {
+  .link {
+    @apply text-secondText uppercase lg:text-[16px] md:text-[11px] font-semibold hover:text-primaryText;
+  }
+  .spacing {
+    @apply mt-15;
+  }
+}
